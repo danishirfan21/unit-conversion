@@ -1,0 +1,93 @@
+/* Hide the increment and decrement buttons */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+
+body {
+    margin: 0;
+}
+
+.heading {
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.intro {
+    background: #6943FF;
+    padding: 30px;
+    margin: 0;
+}
+
+
+#unit {
+    height: 4rem;
+    font-size: 2rem;
+    font-weight: 800; 
+    font-family: Arial, Helvetica, sans-serif;
+    background: inherit;
+    color: #FFFFFF;
+    width: 10%;
+    min-width: 5%;
+    padding: 0.25rem 1rem;
+    text-align: center;
+    border: 1px solid #B295FF;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+
+.container {
+    /* display: block; */
+    /* justify-content: center; */
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.btn {
+    display: block;
+    margin: 2rem auto;
+    color: #3D3D3D;
+    background: #FFFFFF;
+    padding: 0.7rem 1.75rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.measurements {
+    background: #F4F4F4;
+    margin: 0;
+}
+
+.measurements > div > h3 {
+    margin: 0;
+}
+
+.item {
+    background: #FFFFFF;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.title {
+    color: #5A537B;
+}
+
+.content {
+    font-size: 0.9rem;
+    color: #353535;
+}
+
+input:focus {
+    outline: none;
+}
