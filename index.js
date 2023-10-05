@@ -10,6 +10,8 @@ const lengthText = document.getElementById("length-description");
 const volumeText = document.getElementById("volume-description");
 const massText = document.getElementById("mass-description");
 
+const convertButtonEl = document.getElementById("convert-button");
+
 function convertData() {
     
     const inputValue = parseInt(document.getElementById("unit").value);
@@ -22,6 +24,10 @@ function convertData() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
+    convertData();
+})
+
+convertButtonEl.addEventListener("click", function() {
     convertData();
 })
 
